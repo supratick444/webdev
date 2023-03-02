@@ -19,3 +19,22 @@ console.log(discount_given);  // we get : 75.09386733416771
 var discounted = Math.round(discount_given);
 
 console.log(discounted + " % off");
+
+// site to use : 
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+// to know what type of datatype is used 
+
+console.log(typeof discounted );    // number 
+
+var pay ;
+
+console.log(typeof pay );    // undefined 
+
+var a = " ";
+
+console.log(typeof a );     // strings 
+
+var n = null 
+
+console.log(typeof n );    // object
