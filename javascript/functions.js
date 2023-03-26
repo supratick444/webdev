@@ -27,3 +27,22 @@ var arrow =(p,q) =>{
 arrow(2,3); //function call 
 
 //-------------------------------------------------------------------------------------
+
+//application : 
+
+//lets create a array and check it has even elements 
+// var iseven = (e)=>(e%2===0)
+//or
+var iseven = (e)=>{
+      
+    return e%2===0;
+};
+
+var res=[2,4,6,8].every(iseven);
+
+console.log(res);
+
+
+
+
+
