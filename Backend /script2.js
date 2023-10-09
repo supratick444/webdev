@@ -10,10 +10,10 @@
 // module.exports = a ;
 
 
-var a = 12;
-var b = 22;
+const a = 12;
+const b = 22;
 
-module.export={  a, b };
+module.export={ a, b };
 
 // exports.first = a ;
 // exports.second = b ;
