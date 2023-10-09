@@ -1,9 +1,17 @@
 //import syntax :
+var {a,b}= require("./script2.js");
 
-var {a,b} = require('./script2.js');
 
 console.log(a);
-
-// var b =  require('./script2.js');
-
 console.log(b);
+
+
+// console.log(a.second);
+
+// ----------------------------------------------------------
+
+// did not work for :
+
+
+// import * as p from './script2.js';
+

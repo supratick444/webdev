@@ -13,4 +13,7 @@
 var a = 12;
 var b = 22;
 
-module.exports = { first: a, second: b };
+module.export={  a, b };
+
+// exports.first = a ;
+// exports.second = b ;
