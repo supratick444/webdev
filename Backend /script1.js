@@ -1,7 +1,5 @@
 //import syntax :
-const {a,b}= require("./script2.js");
-
-
+const {a,b}= require("./script2");
 console.log(a);
 console.log(b);
 
