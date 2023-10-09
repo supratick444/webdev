@@ -13,7 +13,7 @@
 const a = 12;
 const b = 22;
 
-module.export={ a, b };
+module.exports={ a, b };
 
 // exports.first = a ;
 // exports.second = b ;
