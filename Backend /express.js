@@ -10,8 +10,11 @@ const express = require('express')
 
 const app = express()
 
+var c = 0 ;
+
 app.use(function(req,res,next){
-    console.log("Middle ware");
+    console.log(c);
+    c++;
     next();
 });
 
@@ -50,7 +53,10 @@ app.get("/profile",function(req,res){
 
 // syntax : 
 
-app.use(function(req,res,next){
-    console.log("Middle ware");
-    next();
-});
+// app.use(function(req,res,next){
+//     console.log("Middle ware 1");
+//     next();
+// });
+
+//this position matters since ap agar usko use kara na chahate hoo 
+// tho routes ka pahale app.use(function(req,res,next));
