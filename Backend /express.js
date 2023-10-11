@@ -27,10 +27,14 @@ app.use(express.static('./public'));  // midleware concept *********************
 //   res.send('Hello World Doremon ka bhai nodemon')
 // })
 
+//ejs concept is used we display the page in index.ejs
 app.get('/', function (req, res) {
   res.render("index")
 })
 
+app.get('/contact', function (req, res) {
+  res.render("index2" , {age:12});
+})
 
 
 
