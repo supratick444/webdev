@@ -20,7 +20,7 @@ name1 ? console.log("sonu "):console.log("wrong name ");
 
 // two types of checking : 
 
-var a = "2" ;
+
 
 (a==2) ? console.log("true"):console.log("false");  // it doesn't do strict checking as a result of which we get true .
 
