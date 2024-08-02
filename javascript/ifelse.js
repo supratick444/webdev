@@ -28,3 +28,6 @@ var a = "2" ;
 
 
 
+if(true){
+    print("hello")
+}
